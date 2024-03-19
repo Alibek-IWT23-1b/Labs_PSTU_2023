@@ -1,3 +1,7 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
 int a, b, c, max;
 
 cin >> a >> b >> c;
@@ -17,3 +21,4 @@ if (c > max)
 }
 
 cout << max << endl;
+}
